@@ -1,0 +1,31 @@
+{
+  "tutoriasApp": {
+    "tutoria": {
+      "home": {
+        "title": "Tutorias",
+        "createLabel": "Crear nuevo Tutoria",
+        "createOrEditLabel": "Crear o editar Tutoria",
+        "notFound": "No Tutorias found"
+      },
+      "created": "Un nuevo Tutoria ha sido creado con el identificador {{ param }}",
+      "updated": "Un Tutoria ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Tutoria ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Tutoria {{ id }}?"
+      },
+      "detail": {
+        "title": "Tutoria"
+      },
+      "horaInicio": "Hora Inicio",
+      "horaFin": "Hora Fin",
+      "dia": "Dia",
+      "profesor": "Profesor",
+      "estudiante": "Estudiante",
+      "tomada": "Tomada",
+      "materia": "Materia",
+      "comentario": "Comentario",
+      "estudiante": "Estudiante",
+      "profesor": "Profesor"
+    }
+  }
+}

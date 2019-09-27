@@ -1,0 +1,26 @@
+{
+  "tutoriasApp": {
+    "materia": {
+      "home": {
+        "title": "Materias",
+        "createLabel": "Crear nuevo Materia",
+        "createOrEditLabel": "Crear o editar Materia",
+        "notFound": "No Materias found"
+      },
+      "created": "Un nuevo Materia ha sido creado con el identificador {{ param }}",
+      "updated": "Un Materia ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Materia ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Materia {{ id }}?"
+      },
+      "detail": {
+        "title": "Materia"
+      },
+      "codigo": "Codigo",
+      "nombre": "Nombre",
+      "creditos": "Creditos",
+      "horario": "Horario",
+      "tutoria": "Tutoria"
+    }
+  }
+}

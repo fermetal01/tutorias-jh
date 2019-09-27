@@ -1,0 +1,45 @@
+{
+    "name": "Profesor",
+    "fields": [
+        {
+            "fieldName": "area",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "horarioMateria",
+            "otherEntityRelationshipName": "profesor",
+            "relationshipName": "horario"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "tutoria",
+            "otherEntityRelationshipName": "profesor",
+            "relationshipName": "tutoria"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "departamento",
+            "otherEntityRelationshipName": "profesor",
+            "relationshipName": "departamento"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "profesor",
+            "relationshipName": "user",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190927040339",
+    "entityTableName": "profesor",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

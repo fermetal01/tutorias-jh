@@ -1,0 +1,38 @@
+{
+    "name": "Comentario",
+    "fields": [
+        {
+            "fieldName": "comentarioInicial",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "padre",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "descripcion",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "usuario",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "tutoria",
+            "otherEntityName": "tutoria",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190927040337",
+    "entityTableName": "comentario",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

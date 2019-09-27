@@ -1,0 +1,27 @@
+{
+  "tutoriasApp": {
+    "horarioMateria": {
+      "home": {
+        "title": "Horario Materias",
+        "createLabel": "Crear nuevo Horario Materia",
+        "createOrEditLabel": "Crear o editar Horario Materia",
+        "notFound": "No Horario Materias found"
+      },
+      "created": "Un nuevo Horario Materia ha sido creado con el identificador {{ param }}",
+      "updated": "Un Horario Materia ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Horario Materia ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Horario Materia {{ id }}?"
+      },
+      "detail": {
+        "title": "Horario Materia"
+      },
+      "profesor": "Profesor",
+      "horaInicio": "Hora Inicio",
+      "horaFin": "Hora Fin",
+      "dia": "Dia",
+      "materia": "Materia",
+      "profesor": "Profesor"
+    }
+  }
+}

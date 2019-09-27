@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity ProgramaAcademico.
+    -->
+    <changeSet id="20190927040333-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="departamento_id"
+                                 baseTableName="programa_academico"
+                                 constraintName="fk_programa_academico_departamento_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="departamento"/>
+
+        <addForeignKeyConstraint baseColumnNames="programa_academico_id"
+                                 baseTableName="programa_academico_materia"
+                                 constraintName="fk_programa_academico_materia_programa_academico_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="programa_academico"/>
+
+        <addForeignKeyConstraint baseColumnNames="materia_id"
+                                 baseTableName="programa_academico_materia"
+                                 constraintName="fk_programa_academico_materia_materia_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="materia"/>
+        
+        <addForeignKeyConstraint baseColumnNames="estudiante_id"
+                                 baseTableName="programa_academico"
+                                 constraintName="fk_programa_academico_estudiante_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="estudiante"/>
+
+    </changeSet>
+</databaseChangeLog>

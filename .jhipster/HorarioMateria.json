@@ -1,0 +1,45 @@
+{
+    "name": "HorarioMateria",
+    "fields": [
+        {
+            "fieldName": "profesor",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "horaInicio",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "horaFin",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dia",
+            "fieldType": "Dia",
+            "fieldValues": "LUNES,MARTES,MIERCOLES,JUEVES,VIERNES,SABADO"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "materia",
+            "otherEntityName": "materia",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipName": "profesor",
+            "otherEntityName": "profesor",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190927040335",
+    "entityTableName": "horario_materia",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

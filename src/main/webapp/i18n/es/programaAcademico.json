@@ -1,0 +1,28 @@
+{
+  "tutoriasApp": {
+    "programaAcademico": {
+      "home": {
+        "title": "Programa Academicos",
+        "createLabel": "Crear nuevo Programa Academico",
+        "createOrEditLabel": "Crear o editar Programa Academico",
+        "notFound": "No Programa Academicos found"
+      },
+      "created": "Un nuevo Programa Academico ha sido creado con el identificador {{ param }}",
+      "updated": "Un Programa Academico ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Programa Academico ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Programa Academico {{ id }}?"
+      },
+      "detail": {
+        "title": "Programa Academico"
+      },
+      "codigo": "Codigo",
+      "nombre": "Nombre",
+      "url": "Url",
+      "correo": "Correo",
+      "departamento": "Departamento",
+      "materia": "Materia",
+      "estudiante": "Estudiante"
+    }
+  }
+}

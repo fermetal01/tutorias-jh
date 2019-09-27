@@ -1,0 +1,25 @@
+{
+  "tutoriasApp": {
+    "estudiante": {
+      "home": {
+        "title": "Estudiantes",
+        "createLabel": "Crear nuevo Estudiante",
+        "createOrEditLabel": "Crear o editar Estudiante",
+        "notFound": "No Estudiantes found"
+      },
+      "created": "Un nuevo Estudiante ha sido creado con el identificador {{ param }}",
+      "updated": "Un Estudiante ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Estudiante ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Estudiante {{ id }}?"
+      },
+      "detail": {
+        "title": "Estudiante"
+      },
+      "carrera": "Carrera",
+      "departamento": "Departamento",
+      "tutoria": "Tutoria",
+      "user": "User"
+    }
+  }
+}

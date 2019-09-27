@@ -1,0 +1,36 @@
+{
+    "name": "Departamento",
+    "fields": [
+        {
+            "fieldName": "nombre",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "decano",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "programaAcademico",
+            "otherEntityRelationshipName": "departamento",
+            "relationshipName": "programa"
+        },
+        {
+            "relationshipName": "profesor",
+            "otherEntityName": "profesor",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190927040332",
+    "entityTableName": "departamento",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

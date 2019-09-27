@@ -1,0 +1,65 @@
+{
+    "name": "Tutoria",
+    "fields": [
+        {
+            "fieldName": "horaInicio",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "horaFin",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dia",
+            "fieldType": "Dia",
+            "fieldValues": "LUNES,MARTES,MIERCOLES,JUEVES,VIERNES,SABADO"
+        },
+        {
+            "fieldName": "profesor",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "estudiante",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tomada",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "materia",
+            "otherEntityName": "materia",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "comentario",
+            "otherEntityRelationshipName": "tutoria",
+            "relationshipName": "comentario"
+        },
+        {
+            "relationshipName": "estudiante",
+            "otherEntityName": "estudiante",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipName": "profesor",
+            "otherEntityName": "profesor",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190927040336",
+    "entityTableName": "tutoria",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

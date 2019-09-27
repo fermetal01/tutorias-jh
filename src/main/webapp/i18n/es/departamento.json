@@ -1,0 +1,25 @@
+{
+  "tutoriasApp": {
+    "departamento": {
+      "home": {
+        "title": "Departamentos",
+        "createLabel": "Crear nuevo Departamento",
+        "createOrEditLabel": "Crear o editar Departamento",
+        "notFound": "No Departamentos found"
+      },
+      "created": "Un nuevo Departamento ha sido creado con el identificador {{ param }}",
+      "updated": "Un Departamento ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Departamento ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Departamento {{ id }}?"
+      },
+      "detail": {
+        "title": "Departamento"
+      },
+      "nombre": "Nombre",
+      "decano": "Decano",
+      "programa": "Programa",
+      "profesor": "Profesor"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "Materia",
+    "fields": [
+        {
+            "fieldName": "codigo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nombre",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "creditos",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "horarioMateria",
+            "otherEntityRelationshipName": "materia",
+            "relationshipName": "horario"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "tutoria",
+            "otherEntityRelationshipName": "materia",
+            "relationshipName": "tutoria"
+        }
+    ],
+    "changelogDate": "20190927040334",
+    "entityTableName": "materia",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
